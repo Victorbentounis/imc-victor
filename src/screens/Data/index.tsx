@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import { View, Text, Image, TextInput } from "react-native";
+import { View, Text, Image } from "react-native";
 import { styles } from "./styles";
 
 import { useForm, Controller } from "react-hook-form";
@@ -137,11 +137,8 @@ export default function Home() {
           type="primary"
           title="Calcular"
           onPress={handleSubmit(onSubmit)}
-        >
-          <Image source={dataIllustration} resizeMode="contain" />
-        </Button>
-      </View>
-      <View style={styles.bottom}>
+        />
+
         <Button
           type="tertiary"
           title="Voltar"

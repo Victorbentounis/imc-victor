@@ -15,30 +15,27 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.top}>
-        <View style={styles.header}>
-          <Text style={styles.line01}>Calcule o seu</Text>
-          <Text style={styles.line02}>IMC</Text>
-        </View>
-        <Image
-          style={styles.image}
-          source={homeIllustration}
-          resizeMode="contain"
-        />
         <Text style={styles.content}>
           Estar dentro do peso certo é importante porque estar acima ou abaixo
           desse peso pode influenciar bastante a saúde, aumentando o risco de
           doenças como desnutrição quando se está abaixo do peso, e AVC ou
           infarto, quando se está acima do peso.
         </Text>
-      </View>
-      <View style={styles.bottom}>
+        <Image
+          style={styles.image}
+          source={homeIllustration}
+          resizeMode="contain"
+        />
+        <View style={styles.header}>
+          <Text style={styles.line01}>Calcule o seu</Text>
+          <Text style={styles.line02}>IMC</Text>
+        </View>
+
         <Button
           type="secondary"
           title="Começar"
           onPress={() => handleSetCurrentPage("Data")}
-        >
-          <Image source={arrowIllustrationHome} resizeMode="contain" />
-        </Button>
+        />
       </View>
     </View>
   );

@@ -27,7 +27,6 @@ export default function Button({
     <Pressable style={buttonType[type]} onPress={onPress}>
       {type === "tertiary" ? (
         <>
-          <View style={styles.backIcon}>{children}</View>
           <Text style={textType[type]}>{title}</Text>
         </>
       ) : (

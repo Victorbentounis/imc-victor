@@ -4,7 +4,7 @@ export interface ButtonInterface {
   type: "primary" | "secondary" | "tertiary";
   onPress: () => void;
   title: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export interface GenderInterface {

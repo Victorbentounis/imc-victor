@@ -4,20 +4,23 @@ import { theme } from "../../styles/theme";
 
 export const styles = StyleSheet.create({
   primary: {
+    marginTop: 20,
     width: 200,
-    backgroundColor: theme.colors.blue,
+    backgroundColor: theme.colors.white,
     paddingTop: 10,
+    borderWidth: 1,
     paddingBottom: 10,
     paddingLeft: 20,
     paddingRight: 20,
     borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "row",
   },
   secondary: {
+    marginTop: 20,
     width: 225,
     backgroundColor: theme.colors.white,
+    borderWidth: 1,
     paddingTop: 15,
     paddingBottom: 10,
     paddingLeft: 20,
@@ -25,9 +28,9 @@ export const styles = StyleSheet.create({
     borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "row",
   },
   tertiary: {
+    marginTop: 20,
     width: 225,
     backgroundColor: "transparent",
     paddingTop: 15,
@@ -41,7 +44,7 @@ export const styles = StyleSheet.create({
   },
   primaryText: {
     fontFamily: theme.fonts.semibold,
-    color: theme.colors.white,
+    color: theme.colors.red,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -57,7 +60,7 @@ export const styles = StyleSheet.create({
   },
   tertiaryText: {
     fontFamily: theme.fonts.semibold,
-    color: theme.colors.white,
+    color: theme.colors.black,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -65,9 +68,5 @@ export const styles = StyleSheet.create({
   },
   nextIcon: {
     marginLeft: 50,
-  },
-  backIcon: {
-    marginLeft: -200,
-    marginRight: 10,
   },
 });

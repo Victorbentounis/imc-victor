@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
     paddingLeft: 60,
     paddingRight: 60,
     flex: 1,
+    height: "100%",
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: theme.colors.white,
@@ -43,10 +44,5 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     fontFamily: theme.fonts.light,
-  },
-  bottom: {
-    flex: 0.175,
-    justifyContent: "center",
-    alignItems: "center",
   },
 });

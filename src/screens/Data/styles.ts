@@ -73,9 +73,4 @@ export const styles = StyleSheet.create({
     paddingEnd: 30,
     borderBottomColor: theme.colors.black,
   },
-  bottom: {
-    flex: 0.175,
-    justifyContent: "center",
-    alignItems: "center",
-  },
 });

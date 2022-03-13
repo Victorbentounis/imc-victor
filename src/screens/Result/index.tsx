@@ -44,15 +44,11 @@ export default function Result() {
           <Text style={styles.line01}>Este valor é considerado como</Text>
           <Text style={styles.line02}>{resultLabel}</Text>
         </View>
-      </View>
-      <View style={styles.bottom}>
         <Button
           type="tertiary"
           title="Voltar"
           onPress={() => handleSetCurrentPage("Home")}
-        >
-          <Image source={arrowIllustrationHome} resizeMode="contain" />
-        </Button>
+        />
       </View>
     </View>
   );
